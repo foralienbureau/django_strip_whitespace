@@ -43,7 +43,7 @@ setup_kwargs = setup(
     install_requires=install_requires,
     extras_require=extras_require,
     # zip_safe=False,
-    python_requires=">=3.7, <3.11",
+    python_requires=">=3.7, <3.12",
     license="GPLv3",
     platforms="any",
     classifiers=[
@@ -54,6 +54,7 @@ setup_kwargs = setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ],
